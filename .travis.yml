@@ -5,7 +5,7 @@ jdk:
 addons:
  sonarcloud:
   organization: jevering
-  token: travis 4c97435fd9d5405ed29b963206bcaa7e7c68d995
+  token: 4c97435fd9d5405ed29b963206bcaa7e7c68d995
 script:
 -ant build
 -sonar-scanner
